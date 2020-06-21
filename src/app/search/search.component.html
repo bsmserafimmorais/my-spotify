@@ -1,0 +1,17 @@
+<div class="container-all">
+    <div class="container-search">
+      <label for="search">Busque por artistas, ábuns ou músicas</label>
+      <input id="search" type="text" placeholder="Comece a escrever..." autocomplete="off" (input)="onKey($event)">
+  
+      <div class="container-albuns">
+        <span>Resultados encontrados para "{{values}}"</span>
+        <div class="container-img">
+          <div class="flex-img" *ngFor="let list of albuns.tracks.items">
+            <img class="img" src="{{list.album.images[0].url}}">
+            <span class="name-list">{{list.name}}</span>
+            <span class="name-list">{{list.artists[0].name}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
