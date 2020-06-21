@@ -14,13 +14,10 @@ export class AppComponent implements OnInit{
   constructor(private spotifyService: SpotifyService) {}
 
   ngOnInit() {
-    this.spotifyService.login().subscribe(res => {
-      console.log('valor login', res);
-    });
-    // this.getAlbuns(this.values);
+    
   }
 
-  onKey(event: KeyboardEvent) { // with type info
+  onKey(event: KeyboardEvent) {
     this.values = (event.target as HTMLInputElement).value;
     this.getAlbuns(this.values);
     console.log('valor do va', this.values);

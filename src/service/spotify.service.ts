@@ -11,7 +11,7 @@ export class SpotifyService {
     httpOptions = {
         headers: new HttpHeaders({
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer BQBvFHGqyHMdA77IhFBBRLQkfZzKNiWOLHpOj8kNAV4eBxdGpMZX-tqtK4rnpsPsC8wYcMyTxp1EUABWXb7CbYHdVqbW3K1tDoWeruNUe53rS8PqXueFd9pOTJPGyHgRfiUKbrPPN3uTLQlH_a9g-72ij4LVN715kW1NjK2on9BpJntiUPDs7eIStW9M4_HfE2my2Fsha62wjPExVlw20E7FOXGY0qI8DgsWmo68sHWreonWFyvvt0GVqdv_2higyGFYL9s2D5jjNg'
+            'Authorization': 'Bearer BQCbIAahcEXkZjRMdtgoCIVqgqfUs-fpRmhf4olYnlfRuUEyaYaT04O8jZE6_0gq59xsxDzU7Z-Cchob31v3dNgH6zq7-1k_Wksl20qRx3vvzhpP-nUGEbB8Ki76iZeigaus9ksaITxtdejiQnkwOfOJ_iwg9kFj6INqSxcCcTKAkrncaeHo2kx-lGmqeds5mAWFnSew-inUrtfWnpxVkdnihdZce6xPnhFNFCCLQhH_7KLML3bYfcyX810cOdq6r67A7HEK2c9d'
         })
     }
     scopes = 'user-read-private user-read-email';
